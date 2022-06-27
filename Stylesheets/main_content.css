@@ -397,6 +397,8 @@ transform: translate(-50%);
     position: relative;
     vertical-align: top;}
 
+.mobilepic {display: none;}
+
   .big-text h1 {
     color: white;
     width: 80%;
