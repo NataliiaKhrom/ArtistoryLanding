@@ -65,6 +65,15 @@
     padding-left: 40%;
 }
 
+.rreview h1 {
+    width: 95%;
+    font-size: 1.4em;
+    padding-top: 9%;
+    padding-left: 3%;
+    padding-bottom: 3%;}
+
+  .photo {display: none;}
+
 
 /*_______________ конец */
 
@@ -125,7 +134,7 @@ list-style: none;
 padding: 0 0 0 0;
 margin: 0;
 display: grid;
-row-gap: 6%;
+row-gap: 2%;
 column-gap: 2%;
 grid-template-columns: 1fr;
 top: 10%;}
@@ -135,8 +144,11 @@ top: 10%;}
     padding-bottom: 1%;
     font-size: 1.1em;}
 
+.cardpic img {
+  width:100%; }
+
 .Premium {
-      padding-bottom: 80%;}
+      padding-bottom: 30%;}
 
       .digits {
           position: relative;
@@ -147,9 +159,10 @@ top: 10%;}
             display: none;}
 
             .big-text h1 {
-            color: white;
-              width: 80%;
-                font-size: 2em;}
+              color: white;
+  width: 100%;
+  font-size: 2.4em;
+  padding-top: 10%;}
 
                 .functions p {
                     position: relative;
@@ -167,32 +180,37 @@ top: 10%;}
                         padding-left: 8%;}
 
                         .func-2 p , .func-1 p {
-                          padding-top: 24%;}
-  .thing_1 {
-    top: 26%;
-    left: 48%;
-    width: 45%;}
+                          padding-top: 10%;
+    padding-left: 3%;
+    width: 85%;
+    font-size: 1.4em;}
 
-      .thing_2 {
-          top: 45%;
-          left: 0%;
-          width: 58%;
-          transform: rotate(15deg);}
 
-        .thing_5 {
-          top: 56%;
-          left: 45%;
-            width: 53%;
-          transform: rotate(15deg);}
 
-            .thing_4 {
-              top: 70%;
-              left: 6%;
-                width: 54%;}
+.thing_1 {
+  width: 99%;
+padding-top: 9%;}
 
-                  .thing_3 {
-                    display: none;}
+.thing_2_mobile {
+  display: inline-block;
+  width: 99%;
+padding-top: 9%;}
 
+.thing_2 {
+display: none;
+opacity: 0;}
+
+
+
+.thing_3 {
+  width: 99%;
+padding-top: 9%;}
+
+.func-1 .funktext {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;}
 
 
 .photo {
