@@ -1,0 +1,542 @@
+
+        html {
+            height: 100%;
+        }
+
+        body {
+            width: 100%;
+             height: 100%;
+            min-height: 100%;
+          background: white;
+         overflow-y: scroll;
+         overflow-x: hidden;}
+
+
+
+      .maket {
+         display: block;
+        position: absolute;
+         width: 100%;
+         height: 1000%;
+         z-index: -1;
+         top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;}
+
+       .maket::before {
+         opacity: .3;
+         background: url('../Images/Maket.png')  center no-repeat;
+         background-size: auto 100% ;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;}
+
+      /* ___________ ШРИФТ______________ */
+
+      @font-face {
+    font-family: "SuisseIntlRegular";
+    font-style: normal;
+    src: url("../Fonts/SuisseIntl-Regular.ttf") format("ttf"),
+    url("../Fonts/SuisseIntl-Regular.woff") format("woff"),
+    url("../Fonts/SuisseIntl-Regular.woff2") format("woff2");
+  }
+
+  @font-face {
+    font-family: "SuisseIntlSemiBold";
+    font-style: normal;
+    src: url("../Fonts/SuisseIntl-SemiBold.ttf") format("ttf"),
+    url("../Fonts/SuisseIntl-SemiBold.woff") format("woff"),
+    url("../Fonts/SuisseIntl-SemiBold.woff2") format("woff2");
+  }
+
+
+
+  /* ___________ЛОГОС______________ */
+  .logo {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 12%;
+    padding-top: 2%;
+    text-align: center;
+    margin-bottom: 0.5%;
+    left:0%;
+    /* left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%); */
+    /* background-color: white; */}
+
+  .logo img {
+    height: 100%;}
+
+  .left-stick , .h , .art , .istory , .right-stick {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 100%;}
+
+  .art {
+    /* opacity: .5;*/
+    padding-left: 13%;
+    padding-right: 13%;}
+
+  .h {
+    /* opacity: .5;*/
+    padding-left: 0;
+    padding-right: 0;}
+
+  .istory {
+    /* opacity: .5;*/
+    padding-left: 13%;
+    padding-right: 13%;}
+
+
+
+
+
+  /* ___________ 1-2 ЭКРАН ОБЕРТКА______________ */
+
+      .screen-1 , .about {
+        position: relative;
+        display: block;
+        z-index: 3;
+        width: 100%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%);}
+
+  /* ___________ 1 ЭКРАН контент______________ */
+
+      .text_1scr {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;}
+
+      .screen-1 h1 , .screen-1 p , .screen-1 h2, .about h1 , .about p , .about h2  {
+        position: relative;
+        display: inline-block;
+        width: 80%;
+        padding-left: 6%;}
+
+      .screen-1 h1 {
+      padding-top: 19%;}
+
+    .screen-1 h2 {
+    padding-top: 3%;}
+
+      .screen-1 p {
+    padding-top: 8.5%;}
+
+      .graphics {
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 53%;
+        top: 1%;
+         overflow-x: hidden;}
+
+      .screen-1 img {
+        width: 110%;}
+
+      .button {
+        width: 65%;
+        height: 7%;
+        margin-left: 6%;
+        margin-top: 11%;
+        background-color: black;
+      border-radius: 0.5vh;}
+
+      .button p {
+        text-align: center;
+        padding-top: 6%;
+        padding-bottom: 6%;
+        padding-left: 12%;
+        color: white;
+      }
+
+      /* ____ 1 ЭКРАН текст______ */
+
+      .screen-1 h1 {
+        font-size: 3.7em;
+        line-height: 1.1;}
+
+      .screen-1 h2 {
+        font-size: 2em;
+        line-height: 1;}
+
+      .screen-1 p {
+        font-size: 1.4em;
+        line-height: 1.1;}
+
+        .button p {
+          font-size: 1.3em;
+          line-height: 1;}
+
+        /* __________О ПРОЕКТЕ КОНТЕНТ______________ */
+
+.bigstroke {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 90%;
+  top: 1%;
+   overflow-x: hidden;
+   overflow-y: hidden;
+}
+
+.downgo {
+  position: relative;
+display: inline-block;
+vertical-align: top;
+width: 100%;
+height: 100%;
+}
+
+.bigstroke img {
+      padding-left: 50%;
+}
+
+.bigstroke h1 {
+  padding-top: 3%;
+    padding-left: 9%;
+    font-size: 3.8em;
+    line-height: 1;}
+
+        .graphics h1 {
+          padding-top: 16%;
+          padding-left: 11%;
+          font-size: 3.4em;
+          line-height: 1;}
+
+        .why {
+          padding-top: 22%;
+        padding-bottom: 32%;}
+
+        .about p {
+          font-size: 1.28em;
+          line-height: 1;
+          padding-top: 4%;}
+
+
+
+/* _________ПРЕИМУЩЕСТВА______________ */
+
+.Premium {
+  position: relative;
+  display: block;
+  z-index: 3;
+  width: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);
+  padding-bottom: 5%;
+  padding-top: 6%;}
+
+  .question {
+    position: relative;
+    display: block;
+    padding-top: 12%;
+    padding-bottom: 5%;
+    width: 80%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);}
+
+
+.question h3 {
+  text-align: center;
+  font-size: 3.3em;
+  line-height: 1;}
+
+
+.plus {
+  list-style: none;
+    padding: 0 0 0 3%;
+    margin: 0;
+    display: grid;
+    row-gap: 5%;
+    column-gap: 7%;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: 45% 45%;
+    /* grid-template-rows: repeat(2,minmax(16vw,auto)); */
+    top: 10%;}
+
+*, :after, :before {
+    box-sizing: inherit;}
+
+
+.plus li {
+      width: 100%;
+    background: #E9E2CF;
+  /* opacity: .7; */
+overflow-x: hidden;
+overflow-y: hidden;}
+
+.plus h1 {
+  font-size: 2.4em;
+      line-height: 1;
+      padding-top: 9%;}
+
+  .plus p {
+    padding-top: 10%;
+    padding-bottom: 13%;
+    font-size: 1.5em;}
+
+  /* _________ТЕМНЫЙ БЛОК______________ */
+
+  .lightt {
+    position: relative;
+    display: block;
+    z-index: -1;
+    width: 100%;}
+
+    .dark {
+      position: relative;
+      display: block;
+      z-index: -1;
+      width: 100%;
+      opacity: .7;
+     background-color: #222028;
+      padding-bottom: 10%;
+    overflow-x: hidden;
+  overflow-y: hidden;}
+
+    .digits {
+      position: relative;
+      display: block;
+      width: 90%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%);}
+
+
+
+  .digits p {
+    color: black;
+    padding-top: 0;
+    padding-left: 6%;
+    font-size: 1.3em;}
+
+    .digits h1 {
+      color: black;
+      padding-top: 8%;
+      padding-left: 6%;
+      font-size: 1.3em;}
+
+.dig {
+padding-left: 0;
+}
+
+.d-block-2 , .d-block-1 , .d-block-3 {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 0%;
+  width: 23%;
+}
+
+.d-block-2 h1 , .d-block-1 h1 , .d-block-3 h1 {
+  font-size: 12em;}
+
+  .d-block-2 p, .d-block-1 p, .d-block-3 p {
+      font-size: 1.5em;
+      width: 70%;
+  }
+
+.d-block-1 {
+  padding-left: 3%;}
+  .d-block-2 {
+    padding-left: 15%;}
+    .d-block-3 {
+      padding-left: 12%;}
+
+
+  .big_pic {
+    width: 100%;
+  }
+
+  .big_pic_wrap {
+    width: 100%;
+    display: block;
+  }
+
+  .big_pic_wrap p, .big_pic_wrap img {
+    width: 100%;
+    display: block;
+  }
+
+    /* ________ФУНКЦИИ______________ */
+
+  .functions , .big-text h1 {
+position: relative;
+display: block;
+padding-top: 1%;
+z-index: 3;
+width: 90%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%);
+  }
+
+  .func-1 .funktext {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 40%;
+  }
+
+  .functions img , .funk-1 img {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;}
+
+  .big-text h1 {
+    color: white;
+    width: 80%;
+    font-size: 3.5em;
+    text-align: center;}
+
+    .functions p {
+        color: white;
+        position: relative;
+        display: inline-block;
+        vertical-align: top;
+        width: 89%;
+        font-size: 2.4em;}
+
+.func-1 p {
+  z-index: 4;
+    padding-top: 70%;
+    padding-left: 10%;
+    padding-right: 3%;}
+
+
+
+
+
+        .thing_1 {
+        top: 48%;
+        left: 1%;
+      width: 48%;
+    padding-top: 5%;}
+
+        .thing_2 {
+          top: 0;
+          left: 0;
+          width: 48%;
+        padding-left: 9%;}
+
+        .thing_3 {
+          top: 0;
+        left: 1%;
+          width: 48%;}
+
+
+/* _________________ФУНКЦИИ______________ */
+
+.rreview {
+  position: relative;
+  display: block;
+  z-index: 3;
+  width: 90%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%);}
+
+.rreview h1 {
+    width: 70%;
+    font-size: 3.4em;
+    padding-top: 9%;
+    padding-left: 3%;
+    padding-bottom: 20%;}
+
+  .photo {
+     position: relative;
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 7%;
+      width: 35%;
+      top: 1%;}
+
+    .photo img {
+      position: relative;
+      display: block;
+      vertical-align: top;
+      width: 70%;}
+
+.rewtext {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;}
+
+.rewtext h2 {
+  padding-left: 0;
+  padding-top: 10%;
+  padding-bottom: 2%;
+  width: 70%;
+  font-size: 2.5em;}
+
+.rewtext h3 {
+width: 70%;
+font-size: 1.2em;
+padding-left: 0;}
+
+.rewtext p {
+  padding-left: 0;
+      padding-bottom: 17%;
+      width: 100%;
+      font-size: 1.4em;}
+
+/* .rewtext h1:first-child {
+  padding-top: 18%;
+  padding-left: 1%;
+
+    /* _________________ФУТОР______________ */
+
+
+    .futor {
+      margin-top: 10%;
+      position: relative;
+      background-color: #18181B;
+      display: block;
+      z-index: 3;
+      padding-top: 2%;
+      padding-bottom: 20%;
+      width: 100%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%);
+    overflow-x: hidden;
+  overflow-y: hidden;}
+
+.futorlogo img {
+  z-index: 6;
+  width: 100%;
+  display: block;
+}
+
+
+
+      .lets-half h2 {
+        color: white;
+width: 50%;
+font-size: 1.4em;
+padding-top: 2%;}
+
+.lets-half h3 {
+  padding-left: 6%;
+  color: white;
+width: 50%;
+font-size: 1.2em;
+padding-top: 5%;}
+
+.lets-half p {
+  color: white;
+width: 50%;
+font-size: 1.2em;
+line-height: 1.3em;
+padding-top: 2%;}
