@@ -452,17 +452,17 @@ transform: translate(-50%);
   transform: translate(-50%);}
 
 .rreview h1 {
-    width: 70%;
+    width: 90%;
     font-size: 3.4em;
     padding-top: 9%;
     padding-left: 3%;
-    padding-bottom: 20%;}
+    padding-bottom: 3%;}
 
   .photo {
      position: relative;
       display: inline-block;
       vertical-align: top;
-      padding-top: 7%;
+      padding-top: 3%;
       width: 35%;
       top: 1%;}
 
@@ -470,7 +470,8 @@ transform: translate(-50%);
       position: relative;
       display: block;
       vertical-align: top;
-      width: 70%;}
+      width: 70%;
+    padding-bottom: 20%;}
 
 .rewtext {
   position: relative;
@@ -479,6 +480,7 @@ transform: translate(-50%);
   width: 50%;}
 
 .rewtext h2 {
+  font-family: SuisseIntlSemiBold;
   padding-left: 0;
   padding-top: 10%;
   padding-bottom: 2%;
