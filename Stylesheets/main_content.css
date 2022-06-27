@@ -363,6 +363,11 @@ padding-left: 0;
     display: block;
   }
 
+  .big_pic img {
+    width: 100%;
+    display: block;
+  }
+
   .big_pic_wrap p, .big_pic_wrap img {
     width: 100%;
     display: block;
