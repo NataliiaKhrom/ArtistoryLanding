@@ -217,12 +217,13 @@ padding-top: 9%;}
       width: 40%;}
 
 .rewtext {
-      width: 55%;}
+      width: 100%;
+      padding-left: 3%;}
 
       .rewtext h1 {
           font-size: 1.2em;}
         .rewtext p {
-          font-size: .8em;}
+          font-size: 1.4em;}
 
       .photo img {
           padding-top: 60%;}
@@ -253,14 +254,29 @@ padding-top: 9%;}
                 .button p {
     padding-left: 7%;}
 
+    .lets-half h3 {
+    padding-top: 15%;
+  padding-left: 10%;}
+
+  .lets-half p {
+    font-size: 1em;
+    padding-top: 10%;
+  padding-left: 10%;}
+
+
+
     .men {
     margin-left: 0;}
+
 
     .button {
     width: 80%;}
 
     .button p {
     font-size: 1em;}
+
+
+
 
     .men p {
     position: relative;
