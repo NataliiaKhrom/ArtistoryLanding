@@ -395,7 +395,6 @@ transform: translate(-50%);
 
   .functions img , .funk-1 img {
     position: relative;
-    display: inline-block;
     vertical-align: top;}
 
   .big-text h1 {
@@ -423,21 +422,29 @@ transform: translate(-50%);
 
 
         .thing_1 {
+          display: inline-block;
         top: 48%;
         left: 1%;
       width: 48%;
     padding-top: 5%;}
 
         .thing_2 {
+          display: inline-block;
           top: 0;
           left: 0;
           width: 48%;
         padding-left: 9%;}
 
         .thing_3 {
+          display: inline-block;
           top: 0;
         left: 1%;
           width: 48%;}
+
+
+          .thing_2_mobile {
+            display: none;
+          }
 
 
 /* _________________ФУНКЦИИ______________ */
